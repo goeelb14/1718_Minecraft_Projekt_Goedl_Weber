@@ -1,0 +1,13 @@
+tile.magicblock.name=Magic Block
+item.wanditem.name=Magic Wand
+tile.pinkblock.name=Pink Block
+tile.magentacobbleblock.name=Magenta Cobblestone
+tile.magicpillar.name=Magic Pillar
+tile.blackmarbleblock.name=Black Marble
+tile.goldwayblock.name=Gold Way
+tile.marbleblock.name=Marble
+tile.pinkbrick.name=Pink Brick
+tile.pinkrooftopbrick.name=Pink Rooftop Brick
+tile.purpleblock.name=Purple Block
+tile.purplestarblock.name=Purple Star Block
+entity.unicorn
