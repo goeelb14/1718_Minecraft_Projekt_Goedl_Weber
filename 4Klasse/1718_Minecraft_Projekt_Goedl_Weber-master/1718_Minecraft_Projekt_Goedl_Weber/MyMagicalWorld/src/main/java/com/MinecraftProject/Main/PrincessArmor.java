@@ -19,6 +19,7 @@ public class PrincessArmor extends ItemArmor
 
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
     {
+        System.out.println("Des tu ich noch");
         return MyMagicalWorld.MODID + ":textures/armor/" + this.textureName + ".png";
     }
 }

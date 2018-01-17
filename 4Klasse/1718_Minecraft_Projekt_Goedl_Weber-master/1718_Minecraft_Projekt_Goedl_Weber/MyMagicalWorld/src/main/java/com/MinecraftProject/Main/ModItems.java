@@ -25,13 +25,15 @@ public class ModItems {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(WAND_ITEM);
-
+        if(PrincessCostume != null){
+            event.getRegistry().registerAll(PrincessCostume);
+        }
     }
 
     @SubscribeEvent
     public static void registerRenders(ModelRegistryEvent event) {
         registerRender(WAND_ITEM);
-       // registerRender(PrincessCostume);
+        registerRender(PrincessCostume);
     }
 
     private static void registerRender(Item item) {
